@@ -1,375 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="footer.css" />
-		<link href="assets/bootsrap/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-		<link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet" />
-	</head>
-	<body>
-		<!-- Nav Bar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light header">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#"
-					><img id="nav-logo" src="./Images/logo-removebg-preview.png" alt=""
-				/></a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact us</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- NavBar end -->
 
-		<!-- Carousal -->
-		<div
-			id="carouselExampleIndicators"
-			class="carousel slide"
-			data-bs-ride="carousel"
-		>
-			<div class="carousel-indicators">
-				<button
-					type="button"
-					data-bs-target="#carouselExampleIndicators"
-					data-bs-slide-to="0"
-					class="active"
-					aria-current="true"
-					aria-label="Slide 1"
-				></button>
-				<button
-					type="button"
-					data-bs-target="#carouselExampleIndicators"
-					data-bs-slide-to="1"
-					aria-label="Slide 2"
-				></button>
-				<button
-					type="button"
-					data-bs-target="#carouselExampleIndicators"
-					data-bs-slide-to="2"
-					aria-label="Slide 3"
-				></button>
-			</div>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img
-						src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_7a654031c79d30bbc5840e0fc286a266.jpeg"
-						class="d-block w-100"
-						alt="..."
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_468a41a962f58703ad057c3d88fff3a7.jpeg"
-						class="d-block w-100"
-						alt="..."
-					/>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_7dbe7149bc7061152a2c370502f14596.jpeg"
-						class="d-block w-100"
-						alt="..."
-					/>
-				</div>
-			</div>
-			<button
-				class="carousel-control-prev"
-				type="button"
-				data-bs-target="#carouselExampleIndicators"
-				data-bs-slide="prev"
-			>
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="footer.css" />
+	<link href="assets/bootsrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+	<link href="assets/boxicons/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+	<!-- Nav Bar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light header">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img id="nav-logo" src="./Images/logo-removebg-preview.png" alt="" /></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
 			</button>
-			<button
-				class="carousel-control-next"
-				type="button"
-				data-bs-target="#carouselExampleIndicators"
-				data-bs-slide="next"
-			>
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#project">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact us</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<!-- Carousal end-->
+	</nav>
+	<!-- NavBar end -->
 
-		<!-- About -->
-		<section id="about" class="container mt-4">
-			<h3 class="display-6 fw-bold">Data Engineering and Research Lab</h3>
-			<p class="fs-4 text fw-bold">Vision</p>
-			<p class="monospace">
-				Anusandhaan Lab Vision Building a strong analytical research environment
-				which widens the insights for the challenges of 21st Century. Mission To
-				encourage learning through enquiry, logic and developing a fearless
-				attitude towards the fulfillment of curiosity. To train students in
-				cutting edge technologies. To help the students gain practical,
-				theoretical as well as technical knowledge. To convert global challenges
-				into Opportunities through "Value Embedded Quality Technical Education.
-				To nurture creativity and critical thinking in apply engineering skills
-				to face the fast-growing globalization.
-			</p>
-			<p class="monospace">
-				Department of Computer Science and Engineering Vision To emerge as a
-				centre of excellence, in the field of Computer Science and Engineering,
-				by grooming our pupils with strong conceptual and technical knowledge to
-				enable them as sound professionals. Mission To inculcate self-motivation
-				among the students, who can find and understand the insight of the need
-				of the day. To produce best quality professionals with strong conceptual
-				knowledge, producing qualitative research and hands-on experience. To
-				enable the students to be technically competent among their peers and
-				serve as ethical software professionals. To facilitate industry
-				interaction exposure for the benefit of stakeholder. To motivate
-				faculties to follow innovative teaching-learning practices &
-				continuously groom themselves with upcoming technologies
-			</p>
-		</section>
-		<!-- About end -->
+	<!-- Carousal -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_7a654031c79d30bbc5840e0fc286a266.jpeg"
+					class="d-block w-100" alt="..." />
+			</div>
+			<div class="carousel-item">
+				<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_468a41a962f58703ad057c3d88fff3a7.jpeg"
+					class="d-block w-100" alt="..." />
+			</div>
+			<div class="carousel-item">
+				<img src="https://vaave.s3.amazonaws.com/album_photos/851f5ac9941d720844d143ed9cfcf60a_7dbe7149bc7061152a2c370502f14596.jpeg"
+					class="d-block w-100" alt="..." />
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	<!-- Carousal end-->
+	
+	<!-- About -->
+	<section id="about" class="container mt-4">
+		<h3 class="display-6 fw-bold d-flex justify-content-center">DATA ENGINEERING
+			AND RESEARCH LABS</h3>
+		<p class="fs-4 text fw-bold d-flex justify-content-center">Vision</p>
+		<p class="monospace d-flex justify-content-center">
+			Building a strong analytical research environment which widens the insights for the
+challenges of 21st Century.
+		</p>
+		<p class="fs-4 text fw-bold d-flex justify-content-center">Mission</p>
+		<div class="d-flex justify-content-center">
+		<ul>
+			<li>To encourage learning through enquiry, logic and developing a fearless attitude towards the fulfilment of curiosity.</li>
+			<li>To train students in cutting-edge technologies.</li>
+			<li>To help the students gain practical as well as theoretical technical knowledge.</li>
+			<li>To convert global challenges into Opportunities through "Value Embedded Quality Technical Education</li>
+			<li>To nurture creativity and critical thinking in applying engineering skills to face the fast-growing globalization.</li>
+		</ul>
+	</div>
+	</section>
+	<!-- About end -->
 
-		<!-- Projects -->
-		<section id="project" class="container mt-4">
-			<h3 class="display-6 fw-bold">Projects</h3>
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="card d-flex justify-content-center border-0">
-						<div class="d-flex justify-content-center">
-							<img
-								src="https://www.w3schools.com/bootstrap4/paris.jpg"
-								class="d-flex justify-content-center rounded-circle"
-								alt="Cinque Terre"
-								width="140"
-								height="140"
-							/>
-						</div>
-						<div class="card-body">
-							<h5 class="card-title d-flex justify-content-center">
-								Ongoing Project
-							</h5>
-							<ul>
-								<li>
-									Development of a low cost Al enabled intelligent spectacles
-									and stick for visually impaired people using deep leaming.
-								</li>
-								<li>Life expectancy after thoracic Surgery</li>
-								<li>
-									Automatic Speech Recognition and Text Summarization using Deep
-									Learning
-								</li>
-								<li>Data driven Credit Underwriting</li>
-								<li>
-									Web Automation. Segregated and Authenticated University
-									Circulars on Social Media (Part-I)
-								</li>
-								<li>Image noise removal using Deep Learning</li>
-								<li>
-									COVID-19 Vaccination Analysis using Time Series Analysis Fake
-									news analysis and classification using Machine Learning
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="card d-flex justify-content-center border-0">
-						<div class="d-flex justify-content-center">
-							<img
-								src="https://www.w3schools.com/bootstrap4/paris.jpg"
-								class="rounded-circle"
-								alt="Cinque Terre"
-								width="140"
-								height="140"
-							/>
-						</div>
-						<div class="card-body">
-							<h5 class="card-title d-flex justify-content-center">
-								Completed Project
-							</h5>
-							<ul>
-								<li>System And Method To Derive Dependency Between Course</li>
-								<li>Outcomes With Program Outcomes</li>
-								<li>
-									HUDA COVID Human Disposition Analysis during COVID-19 using
-									Machine Learning
-								</li>
-								<li>Recyclable Item Detection Model using Machine Learning</li>
-								<li>Automated Human Following Bot</li>
-								<li>
-									Application of Machine Learning in Classification of
-									Cybercrime in India
-								</li>
-								<li>
-									Automating University Circulars to Social Media COVID-19 Time
-									Series Analysis using LSTM and ARIMA Model
-								</li>
-								<li>
-									Demand Forecasting for Retail Stores using Machine Learning
-								</li>
-							</ul>
-						</div>
+	<!-- Projects -->
+	<section id="project" class="container mt-4">
+		<h3 class="display-6 fw-bold d-flex justify-content-center fs-4">Projects</h3>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="card d-flex justify-content-center p-3">
+					<div class="card-body">
+						<h5 class="card-title d-flex justify-content-center">
+							Ongoing Projects
+						</h5>
+						<ul>
+							<li>
+								Development of a low cost Al enabled intelligent spectacles
+								and stick for visually impaired people using deep leaming.
+							</li>
+							<li>Life expectancy after thoracic Surgery</li>
+							<li>
+								Automatic Speech Recognition and Text Summarization using Deep
+								Learning
+							</li>
+							<li>Data driven Credit Underwriting</li>
+							<li>
+								Web Automation. Segregated and Authenticated University
+								Circulars on Social Media (Part-I)
+							</li>
+							<li>Image noise removal using Deep Learning</li>
+							<li>
+								COVID-19 Vaccination Analysis using Time Series Analysis Fake
+								news analysis and classification using Machine Learning
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</section>
+			<div class="col-sm-6">
+				<div class="card d-flex justify-content-center p-3">
+					<div class="card-body">
+						<h5 class="card-title d-flex justify-content-center">
+							Completed Projects
+						</h5>
+						<ul>
+							<li>System And Method To Derive Dependency Between Course</li>
+							<li>Outcomes With Program Outcomes</li>
+							<li>
+								HUDA COVID Human Disposition Analysis during COVID-19 using
+								Machine Learning
+							</li>
+							<li>Recyclable Item Detection Model using Machine Learning</li>
+							<li>Automated Human Following Bot</li>
+							<li>
+								Application of Machine Learning in Classification of
+								Cybercrime in India
+							</li>
+							<li>
+								Automating University Circulars to Social Media COVID-19 Time
+								Series Analysis using LSTM and ARIMA Model
+							</li>
+							<li>
+								Demand Forecasting for Retail Stores using Machine Learning
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<!-- Projects end -->
+	<!-- Projects end -->
 
-		<!-- Contact us -->
-		<section id="contact" class="contact">
-			<div class="container">
-				<h3 class="display-6 fw-bold mt-4">Contact us</h3>
-				<div class="row mt-5">
-					<div class="col-lg-4" data-aos="fade-right">
-						<div class="info">
-							<div class="email">
-								<i class="bi bi-envelope"></i>
-								<h4>Email:</h4>
-								<a href="mailto:contact@bpit.com">
-									<p>contact@bpit.com</p>
-								</a>
-							</div>
+	<!-- Contact us -->
+	<section id="contact" class="contact">
+		<div class="container">
+			<h3 class="display-6 fw-bold mt-4 fs-5">CONTACT US</h3>
+			<div class="row mt-5">
+				<div class="col-lg-4" data-aos="fade-right">
+					<div class="info">
+						<div class="email">
+							<i class="bi bi-envelope"></i>
+							<h4>Email:</h4>
+							<a href="mailto:dataengineeringresearchlabs@gmail.com">
+								<p>dataengineeringresearchlabs@gmail.com</p>
+							</a>
+						</div>
 
-							<div class="phone" id="contact1">
-								<i class="bi bi-phone"></i>
-								<h4>Dr. Charu Gupta</h4>
-								<a href="tel:+918448605921">
-									<p>+91-8448605921</p>
-								</a>
-							</div>
-
-							<div class="phone" id="contact2">
-								<i class="bi bi-phone"></i>
-								<h4>Dr. Deepali Varmani</h4>
-								<a href="tel:+918448605921">
-									<p>+91-8448605921</p>
-								</a>
-							</div>
+						
+						<div class="phone" id="contact2">
+							<i class="bi bi-phone"></i>
+							<h4>Dr. Deepali Varmani</h4>
+							<a href="tel:+919871947800">
+								<p>+91-98719 47800</p>
+							</a>
+						</div>
+						<div class="phone" id="contact1">
+							<i class="bi bi-phone"></i>
+							<h4>Dr. Charu Gupta</h4>
+							<a href="tel:+919953775993">
+								<p>+91-99537 75993</p>
+							</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
-						<form
-							action="forms/contact.php"
-							method="post"
-							role="form"
-							class="php-email-form"
-						>
-							<div class="row">
-								<div class="col-md-6 form-group">
-									<input
-										type="text"
-										name="name"
-										class="form-control"
-										id="name"
-										placeholder="Your Name"
-										required
-									/>
-								</div>
-								<div class="col-md-6 form-group mt-3 mt-md-0">
-									<input
-										type="email"
-										class="form-control"
-										name="email"
-										id="email"
-										placeholder="Your Email"
-										required
-									/>
-								</div>
+				<div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+					<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+						<div class="row">
+							<div class="col-md-6 form-group">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+									required />
 							</div>
-							<div class="form-group mt-3">
-								<textarea
-									class="form-control"
-									name="message"
-									rows="5"
-									placeholder="Your Feedback"
-									required
-								></textarea>
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<input type="email" class="form-control" name="email" id="email"
+									placeholder="Your Email" required />
 							</div>
-							<div class="my-3">
-								<div class="loading">Loading</div>
-								<div class="error-message"></div>
-								<div class="sent-message">
-									Your message has been sent. Thank you!
-								</div>
+						</div>
+						<div class="form-group mt-3">
+							<textarea class="form-control" name="message" rows="5" placeholder="Your Feedback"
+								required></textarea>
+						</div>
+						<div class="my-3">
+							<div class="loading">Loading</div>
+							<div class="error-message"></div>
+							<div class="sent-message">
+								Your message has been sent. Thank you!
 							</div>
-							<div class="text-center">
-								<button type="submit">Send Feedback</button>
-							</div>
-						</form>
-					</div>
+						</div>
+						<div class="text-center">
+							<button type="submit">Send Feedback</button>
+						</div>
+					</form>
 				</div>
 			</div>
-		</section>
-		<!-- Contact us end -->
+		</div>
+	</section>
+	<!-- Contact us end -->
 
-		<!-- Footer -->
+	<!-- Footer -->
 
-		<footer id="footer" class="mt-5">
-			<div class="container">
-				<h3>Data Engineering and Research Lab, BPIT</h3>
+	<footer id="footer" class="mt-5">
+		<div class="container">
+			<h3>Data Engineering and Research Lab</h3>
 
-				<div class="credits">Designed by</div>
+			<div class="credits">Designed by</div>
 
-				<div class="social-links">
-					<a href="https://www.linkedin.com/in/mishra5047/" class="linkedin"
-						><i class="bx bxl-linkedin"></i
-					></a>
-					<a href="https://www.linkedin.com/in/anmol2512s/" class="linkedin"
-						><i class="bx bxl-linkedin"></i
-					></a>
-					<a href="https://www.linkedin.com/in/kautuk-dwivedi/" class="linkedin"
-						><i class="bx bxl-linkedin"></i
-					></a>
-				</div>
-				<div class="copyright">
-					&copy; Copyright <strong><span>BPIT</span></strong
-					>. All Rights Reserved
-				</div>
+			<div class="social-links">
+				<a href="https://www.linkedin.com/in/mishra5047/" class="linkedin" target="_blank"><i class="bx bxl-linkedin" ></i></a>
+				<a href="https://www.linkedin.com/in/anmol2512s/" class="linkedin" target="_blank"><i class="bx bxl-linkedin" ></i></a>
+				<a href="https://www.linkedin.com/in/kautuk-dwivedi/" class="linkedin" target="_blank"><i
+						class="bx bxl-linkedin"></i></a>
 			</div>
-		</footer>
-		<!-- Footer end -->
-	</body>
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"
-	></script>
+			<div class="copyright">
+				&copy; Copyright <strong><span>DER Labs</span></strong>. All Rights Reserved
+			</div>
+		</div>
+	</footer>
+	<!-- Footer end -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
 </html>

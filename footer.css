@@ -8,11 +8,11 @@
 
 .contact .info i {
 	font-size: 20px;
-	color: #ef6603;
+	color: #4852a5;
 	float: left;
 	width: 44px;
 	height: 44px;
-	background: #ffecde;
+	background: #6beeff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -47,7 +47,7 @@
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-	background: #ef6603;
+	background: #4852a5;
 	color: #fff;
 }
 
@@ -63,7 +63,7 @@
 .contact .php-email-form .error-message {
 	display: none;
 	color: #fff;
-	background: #ed3c0d;
+	background: #2f3994;
 	text-align: left;
 	padding: 15px;
 	font-weight: 600;
@@ -118,7 +118,7 @@
 }
 
 .contact .php-email-form button[type="submit"] {
-	background: #ef6603;
+	background: #4852a5;
 	border: 0;
 	padding: 10px 24px;
 	color: #fff;
@@ -127,7 +127,7 @@
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-	background: #fc8129;
+	background: #2f3994;
 }
 
 @-webkit-keyframes animate-loading {
@@ -183,7 +183,7 @@
 #footer .social-links a {
 	font-size: 18px;
 	display: inline-block;
-	background: #ef6603;
+	background: #4852a5;
 	color: #fff;
 	line-height: 1;
 	padding: 8px 0;
@@ -196,7 +196,7 @@
 }
 
 #footer .social-links a:hover {
-	background: #bd5102;
+	background: #2f3994;
 	color: #fff;
 	text-decoration: none;
 }
