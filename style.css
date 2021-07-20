@@ -4,3 +4,23 @@
 	padding: 0px;
 	font-family: "Roboto", sans-serif;
 }
+
+.carousel-item img {
+	aspect-ratio: 16/9;
+	height: 70vh !important;
+}
+
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+#nav-logo {
+	width: 70px;
+	height: 60px;
+}
+
+.test {
+	min-height: 10000px;
+	background-color: aquamarine;
+}
